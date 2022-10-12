@@ -1,7 +1,7 @@
 # HTB - Trick
 ## Information Gathering
 
-![](./asset/./asset/ipHtb.png)
+![](./asset/ipHtb.png)
 
 Hal pertama yang harus kita lakukan adalah mengumpulkan sebanyak mungkin informasi  mengenai server yang akan kita serang. Disini gw ingin mencari tahu port/service dan OS apa yang dijalankan pada server tersebut.
 langsung saja gw menggunakan masscan untuk melihat port apa saja yang terbuka
