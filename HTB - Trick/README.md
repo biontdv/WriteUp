@@ -87,7 +87,7 @@ sekarang yang bakal gw lakukan adalah membuat wordlist untuk fuzzing directory t
 dan didapatkan wordlist sebagai berikut
 ![](./asset/dotdotpwnWorlist.png)
 
-lalu gunakan intruder pada burpsuite(./asset/sebenar nya bisa langsung menggunakan dotdotpwn tetapi gw lebih suka menggunakan burpsuite :p)
+lalu gunakan intruder pada burpsuite(sebenar nya bisa langsung menggunakan dotdotpwn tetapi gw lebih suka menggunakan burpsuite :p)
 
 tetapi setelah dicoba ternyata tidak vulnerable. dan seperti nya pada web ini kita tidak bisa mendapatkan shell. lalu yang selanjut nya dilakukan adalah mencari lagi subdomain tetapi dengan melakukan fuzzing pada bagian [FUZZ]-payroll.trick.htb atau preprod-[FUZZ].trick.htb. mungkin saja dapat ditemukan suatu subdomain seperti uat-payroll atau preprod-bisaapasaja. setelah dilakukan fuzzing dengan FFUF ditemukan adanya subdomain preprod-marketing
 
